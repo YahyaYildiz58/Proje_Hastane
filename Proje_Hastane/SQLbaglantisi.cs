@@ -11,7 +11,7 @@ namespace Proje_Hastane
     {
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection("Data Source=YAHYA\\YAHYAMSSQL;Initial Catalog=HastaneProje;Integrated Security=True;TrustServerCertificate=True");
+            SqlConnection baglan = new SqlConnection("Data Source=dbname;Initial Catalog=HastaneProje;Integrated Security=True;TrustServerCertificate=True");
             baglan.Open();
             return baglan;
         }
